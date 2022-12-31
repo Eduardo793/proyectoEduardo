@@ -1,0 +1,72 @@
+
+#navbar {
+    margin: 0px 0px;
+    position: fixed;
+    z-index: 2;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34495E;
+    border-radius: 5px;
+    position: sticky;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: cadetblue;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+body {
+    background-image: url(aula.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: bisque;
+}
+
+.botones {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+h3{
+border-style:solid;
+    border-color: beige;
+    border-radius: 5px;
+    border-width: thin;
+}
+h3 a{
+    color: beige;
+    text-decoration: none;
+    margin: 7px;
+}
+

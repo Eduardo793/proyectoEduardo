@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Oferta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <style>
+            #navbar {
+                margin: 0px 0px;
+                position: fixed;
+                z-index: 2;
+
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #34495E;
+                border-radius: 5px;
+                position: sticky;
+            }
+
+            ul {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: cadetblue;
+            }
+
+            .active {
+                background-color: #04AA6D;
+            }
+        </style>
+    </head>
+    <body>
+        <div id ="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="oferta.html">Oferta Académica</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+                <li><a href="index.html"><b>INSTITUTO MATHMAS</b></a></li>
+                <li style="float:right"><a class="active" href="about.html">Acerca de</a></li>
+            </ul>
+        </div>
+        <!-- Carousel -->
+        <div id="demo" class="mx-auto w-50 carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/pizarra.jpg" alt="pizarra1" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>ANÁLISIS MATEMATICO</h3>
+                        <p>Funciones, límites, derivadas, integrales.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pizarra2.jpg" alt="pizarra2" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>MATEMÁTICA BÁSICA</h3>
+                        <p>Sumas, restas, fracciones y polinomios.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pizarra3.jpg" alt="pizarra3" class="d-block w-100">
+                    <div class="carousel-caption">
+                        <h3>MATEMÁTICA INTERMEDIA</h3>
+                        <p>Ecuaciones lineales, sistemas de ecuaciones.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </body>
+</html>
